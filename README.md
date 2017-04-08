@@ -7,11 +7,11 @@
 <br>
 for https://www.hellofresh.co.uk and https://www.hellofresh.com
 
-##Instructions
+## Instructions
 <br> i) maven is used to buold and run the tests , The options to be provided to maven are siteurl , the user name and
 password , it is assumed that the user will provide a valid username that is emailid and a password
 
-<br> ### ex : mvn package -Dsiteurl=https://www.hellofresh.com -Dusername=testuser@testmocker.com -Dpassword=Hellofresh
+### ex : mvn package -Dsiteurl=https://www.hellofresh.com -Dusername=testuser@testmocker.com -Dpassword=Hellofresh
 <br> to the -Dsiteurl option takes the country website url , https://www.hellofresh.com or https://www.hellofresh.co.uk
 <br> maven option -Dusername is used to give a valid email id , Please make sure to give it different on different runs.
 <br> maven option -Dpassword is used to give a valid password
