@@ -23,7 +23,7 @@ public class TestTask1Base {
 
     private static final Logger logger = Logger.getLogger(TestTask1Base.class);
     public final static String siteUrl = System.getProperty("siteurl");
-    public final static String userName = System.getProperty("username")+"@mockinguser.com";
+    public final static String userName = System.getProperty("username");
     public final static String password = System.getProperty("password");
     public final static String accountDetailsUrl = "/account/edit/";
     public final static Locale locale = getLocale(siteUrl);
