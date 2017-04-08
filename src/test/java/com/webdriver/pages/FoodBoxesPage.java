@@ -11,7 +11,7 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 /**
- * Created by matshaik on 4/7/2017.
+ * Page Object class for the food boxes page , Where the user selects between differ types of boxes
  */
 public class FoodBoxesPage {
 

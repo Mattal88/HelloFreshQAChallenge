@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Created by matshaik on 4/6/2017.
+ * Page Object Class for the Login Widget
  */
 public class LoginWidgetPage {
 

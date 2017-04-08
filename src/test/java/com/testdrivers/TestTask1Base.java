@@ -17,7 +17,7 @@ import java.net.URL;
 import java.util.Locale;
 
 /**
- * Created by matshaik on 4/6/2017.
+ * Base and Utility class for the main test class , provides test setup and tear down
  */
 public class TestTask1Base {
 
@@ -53,22 +53,13 @@ public class TestTask1Base {
         homePage = new HomePage(driver);
     }
 
-    /**
-     * After every test go to the base location , Top 250 Movies Page here
-     */
     @AfterMethod
     public void tearDownTest() {
-        //Go to the main screen at the end of test execution
-        //driver.navigate().to(siteUrl);
     }
 
-    /**
-     * After the tests in a test class complete thier run , log out of confluence and teardown the webdriver instance
-     */
     @AfterClass
     public static void tearDownClass() {
-        //Logout for the test
-        //driver.quit();
+        driver.quit();
     }
     /**
      * Method to return locale based on the url , Best practice is to use a guava library to get the locales

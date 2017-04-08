@@ -13,7 +13,7 @@ import org.testng.Assert;
 import java.util.*;
 
 /**
- * Created by matshaik on 4/8/2017.
+ * Page Object class for the user Account Details Page
  */
 public class UserAccountDetailsPage {
 

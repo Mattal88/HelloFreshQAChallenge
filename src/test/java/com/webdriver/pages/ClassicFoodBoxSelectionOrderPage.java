@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Created by matshaik on 4/7/2017.
+ * Page Object Class For the Classic Box Order page
  */
 public class ClassicFoodBoxSelectionOrderPage implements FoodBoxSelectionOrder {
 

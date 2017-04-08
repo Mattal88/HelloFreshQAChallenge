@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by matshaik on 4/6/2017.
+ * Page Object class for the registration widget
  */
 public class RegisterWidgetPage {
 

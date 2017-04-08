@@ -1,7 +1,7 @@
 package com.webdriver.pages;
 
 /**
- * Created by matshaik on 4/7/2017.
+ * Common Interface to be Implemented By the Box/Plan Order Pages
  */
 public interface FoodBoxSelectionOrder {
     String ADD_TO_CART_BUTTON_LOCATOR = "add-to-cart-button";
